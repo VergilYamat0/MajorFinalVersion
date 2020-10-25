@@ -1,0 +1,320 @@
+body.menu {
+
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+nav {
+    width: 100%;
+
+    overflow: auto;
+}
+
+
+img.logo {
+
+    float: right;
+
+}
+
+ul {
+
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+li {
+    float: left;
+
+}
+
+nav a {
+
+    width: 200px;
+    display: grid;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    background-color: steelblue;
+}
+
+
+textarea.cost {
+    background-color: gray;
+    font-family: 'Baloo 2', cursive;
+    color: white;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+
+}
+
+textarea.cost1 {
+    background-color: gray;
+    font-family: 'Baloo 2', cursive;
+    color: white;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    float: center;
+}
+
+textarea.cost2 {
+    background-color: gray;
+    font-family: 'Baloo 2', cursive;
+    color: white;
+    width: 500px;
+    height: 120px;
+    text-align: center;
+    float: left;
+}
+
+
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+
+    float: right;
+    height: 100%;
+    overflow: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.sidebar a {
+    display: block;
+    color: royalblue;
+    padding: 16px;
+    text-decoration: none;
+    border: solid 1px black;
+    background-color: limegreen;
+}
+
+
+.sidebar a.active {
+    background-color: limegreen;
+    color: royalblue;
+
+}
+
+
+.sidebar a:hover:not(.active) {
+
+    color: black;
+}
+
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar a {
+        float: right;
+    }
+
+    div.content {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: right;
+    }
+}
+
+.align {
+
+    text-align: right;
+    font-family: 'Baloo 2', cursive;
+
+}
+
+.fonting {
+
+    font-family: 'Aladin', cursive;
+    text-align: center;
+}
+
+.fonting1 {
+    font-family: 'Baloo 2', cursive;
+}
+
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    color: steelblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Baloo 2', cursive;
+}
+
+.footerstuff {
+    width: 100%;
+    height: 150px;
+    background-color: darksalmon;
+    font-family: 'Aladin', cursive;
+
+
+}
+
+ul.foot12 {
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 150px;
+    margin-right: 900px;
+    background-color: grey;
+    font-family: 'Advent Pro', sans-serif;
+    color: white;
+}
+
+.scndfooter {
+
+    margin-top: -50px;
+    padding: 10px;
+
+    color: blue;
+}
+
+.footerimg {
+
+    text-align: right;
+    margin-top: -50px;
+    margin-right: -200x;
+    border: 10px;
+    float: right;
+}
+
+
+
+.dropbtn {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+    display: grid;
+    width: 200px;
+    font-size: 16px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dropdown {
+
+    display: inline-block;
+    float: left;
+    background-color: grey;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-bottom: 150px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: gray;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.textA {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+    font-family: 'Baloo 2', cursive;
+}
+
+.font {
+
+    font-family: 'Baloo 2', cursive;
+}
+
+
+.purp {
+    float: none;
+    width: 25%;
+    margin-top: 6px;
+    font-family: 'Baloo 2', cursive;
+}
+
+.sub {
+
+    margin-right: 121px;
+    float: left;
+}
+
+
+p.redcolor {
+
+    background-color: black;
+    font-family: 'Baloo 2', cursive;
+    color: red;
+}
+
+#html {
+
+    height: 590px;
+    width: 666px;
+    font-family: "Baloo 2";
+    font-size: 20px;
+    color: black;
+    background-color: cornflowerblue;
+    left: 500px;
+    top: -150px;
+    text-align: center;
+
+
+
+}
+
+#clubs {
+
+    height: 590px;
+    width: 666px;
+    font-family: "Baloo 2";
+    font-size: 20px;
+    color: black;
+    background-color: cornflowerblue;
+    left: 500px;
+    top: -150px;
+    text-align: center;
+
+
+
+}
